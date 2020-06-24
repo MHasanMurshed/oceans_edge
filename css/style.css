@@ -193,44 +193,44 @@ header{
     overflow: hidden;
     margin: 0 auto;
 }
-.card {
+.part {
     width: 30%;
     float: left;
     box-sizing: border-box;
     margin-right: 3%;
 }
-.card h2{
+.part h2{
     font-weight: 500;
     font-size: 22px;
     color: white;
     margin:0;
 }
-.card h2 span{
+.part h2 span{
     font-weight: 600;
     color: #0075B8;
 }
-.card p{
+.part p{
 	font-size: 14px;
     font-weight: 350;
     color: white;
     line-height: 25px;
 }
-/*1st card*/
-.card table,th,td{
+/*1st part*/
+.part table,th,td{
 	font-size: 13px;
     font-weight: 350;
     color: white;
     line-height: 20px;
 }
-.card th{
+.part th{
     text-align: left;
     font-size: 13px;
     font-weight: 350;
 }
-.card:first-child{
+.part:first-child{
     padding-top: 10px;
 }
-/*2nd card*/
+/*2nd part*/
 #talkbubble {
     padding: 10px;
     background: #0C1019;
@@ -250,29 +250,28 @@ header{
     border-right: 60px solid transparent;
     border-top: 20px solid #0C1019;
 }
-.card_top {
+.part_top {
     background-color: #0C1019;
 }
-
-.card_top p{
+.part_top p{
 	font-size: 13px;
     font-weight: 350;
     line-height: 20px;
 }
-.card_bottom {
+.part_bottom {
     padding-left: 20px;
     padding-bottom: 30px;
     margin-top: 20px;
 }
-.card_bottom label{
+.part_bottom label{
     color: white;
     font-weight: 600
 }
-.card_bottom p{
+.part_bottom p{
     margin:0;
     line-height: 25px;
 }
-/*3rd card*/
+/*3rd part*/
 .left {
     width: 40%;
     float: left;
@@ -294,30 +293,30 @@ header{
     margin-top: 10px;
     width: 100%;
 }
-.card:last-child{
+.part:last-child{
     margin-right: 0;
 }
-/*contact section end*/
+/*contact end*/
 /*footer start*/
 footer{
 	background-color: #121B2C;
 	padding-top: 30px;
 	padding-bottom: 50px;
 }
-.portion1 {
+.portionmob{
 	width: 65%;
 	float: left;
 }
-.portion1 ul{
+.portionmob ul{
 	list-style-type: none;
 	overflow: hidden;
 	margin:0;
 	padding:0;
 }
-.portion1 ul li{
+.portionmob ul li{
 	float: left;
 }
-.portion1 ul li a{
+.portionmob ul li a{
 	display: inline-block;
 	font-size: 15px;
     color: white;
@@ -326,23 +325,23 @@ footer{
     padding-right: 17px;
     word-spacing: 7px;
 }
-.portion1 ul li:last-child a{
+.portionmob ul li:last-child a{
 	padding-right: 0;
 }
-.portion1 ul li a:hover{
+.portionmob ul li a:hover{
     color: #0078BD;
 }
-.portion1 p{
+.portionmob p{
 	font-family: sans-serif;
 	font-size: 15px;
 	color: white;
     line-height: 25px;
 }
-.portion2 {
+.portionapp {
 	width: 30%;
 	float: right;
 }
-.portion2 img{
+.portionapp img{
 	width: 100%;
 }
 /*footer end*/
